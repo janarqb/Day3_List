@@ -1,0 +1,10 @@
+guests = ['Carolyn', 'Mrs. Oliver', 'Mr. Tom']
+guests.insert(0,'Olivia')
+guests.insert(3,'Brandon')
+guests.append('Alex')
+print('Dear ' + guests[0].title() + ',' + ' please join me to celebrate the independence day this Saturday, June 4th 2020.')
+print('Dear ' + guests[1].title() + ',' + ' please join me to celebrate the independence day this Saturday, June 4th 2020.')
+print('Dear ' + guests[2].title() + ',' + ' please join me to celebrate the independence day this Saturday, June 4th 2020.')
+print('Dear ' + guests[3].title() + ',' + ' please join me to celebrate the independence day this Saturday, June 4th 2020.')
+print('Dear ' + guests[-2].title() + ',' + ' please join me to celebrate the independence day this Saturday, June 4th 2020.')
+print('Dear ' + guests[-1].title() + ',' + ' please join me to celebrate the independence day this Saturday, June 4th 2020.')
